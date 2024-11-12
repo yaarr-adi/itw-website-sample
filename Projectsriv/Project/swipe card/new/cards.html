@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tinder-like Swipe</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    .card {
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+    }
+
+    .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .buttons {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .button {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border: 2px solid #ddd;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+    .button:hover {
+        transform: scale(1.1);
+    }
+
+    .button img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .superlike {
+        border-color: #4caf50;
+    }
+
+    .discard {
+        border-color: #f44336;
+    }
+</style>
+</head>
+<body>
+<div class="card">
+    <img src="https://via.placeholder.com/300x400" alt="Sample Image">
+    <div class="buttons">
+        <div class="button discard" onclick="discardCard()">
+            <img src="https://img.icons8.com/ios/50/000000/dismiss.png"/>
+        </div>
+        <div class="button superlike" onclick="superLike()">
+            <img src="https://img.icons8.com/ios/50/000000/star--v1.png"/>
+        </div>
+    </div>
+</div>
+
+<script>
+    function discardCard() {
+        alert("Card discarded!");
+    }
+
+    function superLike() {
+        alert("Super like!");
+    }
+</script>
+</body>
+</html>

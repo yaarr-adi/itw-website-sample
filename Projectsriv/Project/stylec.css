@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: Lavender;
+    color: WarmGrey;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: SoftPink;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: DeepBlue;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: DeepBlue;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: GoldenYellow;
+    border-radius: 5px;
+}
+
+.articles {
+    padding: 20px;
+}
+
+.articles h2 {
+    color: DeepBlue;
+}
+
+.articles article {
+    margin-bottom: 20px;
+}
+
+.articles article h3 {
+    color: SoftPink;
+}
+
+.articles article p {
+    color: WarmGrey;
+}
+
+.slider {
+    background-color: SoftPink;
+    color: DeepBlue;
+    padding: 20px;
+    text-align: center;
+}
+
+.slider img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.slider p {
+    color: WarmGrey;
+}
+
+.relationship-cards {
+    padding: 20px;
+    background-color: DeepBlue;
+    color: #fff;
+}
+
+.relationship-cards h2 {
+    color: SoftPink;
+}
+
+.card {
+    background-color: SoftPink;
+    color: DeepBlue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img {
+    width:fit-content;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit:cover;
+}
+
+.card h3 {
+    color: DeepBlue;
+}
+
+.card p {
+    color: WarmGrey;
+}
+
+.card button {
+    background-color: DeepBlue;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: GoldenYellow;
+}
+
+footer {
+    background-color: DeepBlue;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}/* styles.css */
+
+/* Dating Tips Section */
+
+
+
+
+
+
+#dating {
+    background-color: SoftPink;
+    color: DeepBlue;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+#dating h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#dating article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#dating article h3 {
+    color: DeepBlue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#dating article p {
+    color: WarmGrey;
+    line-height: 1.6;
+}
+.articles#relationships {
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+.articles#relationships article h3 {
+    color: #333; 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+}
+
+
+.articles#relationships article p {
+    line-height: 1.6; 
+}
+
+.articles#relationships h2 {
+    color: #555; 
+    font-size: 24px; 
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 10px; 
+}
+
+
+.articles#relationships article {
+    margin-bottom: 30px; 
+}
+
+.articles#self-improvement {
+    background-color: 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
+.articles#self-improvement article h3 {
+    color: #333;
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+
+.articles#self-improvement article p {
+    line-height: 1.6; 
+}
+
+.articles#self-improvement h2 {
+    color: #555; 
+    font-size: 24px; 
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 10px; 
+}
+
+.articles#self-improvement article {
+    margin-bottom: 30px; 
+}
+

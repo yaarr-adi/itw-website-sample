@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bgimg {
+    margin-top: 80px;
+    margin-left: 60px;
+    
+    height: 440px;
+    width: 1340px;
+
+    background-image: url("https://eu1.ecdn2.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFyXXaaKouVhOZ41cd5lVa1U8Uv0801DTShV4iNmsc2CGqlbWJ04WXZ7G_ukqOm9FsJg/");
+}
+
+.friends {
+    gap: 90px;
+    padding: 40px;
+    margin: 80px;
+}
+.friendsimg{
+    scale: 1.09;
+    border-radius: 10px;
+}
+
+.friends_container {
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: #FBCEB1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    display: flex;
+}
+
+.friendsh2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.friendsp {
+    font-size: 1.1rem;
+    font-weight: 1.3rem;
+    
+    align-items: center;
+    
+}
+
+.friendsa {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+
+    color: black;
+}
+
+.friends_read {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.friends{
+    display: flex;
+}
+
+
+
+.firstmove {
+    gap: 40px;
+    padding: 40px;
+    margin: 80px;
+    display: flex;
+    align-items: ;
+
+}
+.firstmoveimg{
+    scale: 0.95;
+    border-radius: 10px;
+    height: 550px;
+    width: 800px;
+
+}
+
+.firstmove_container {
+    margin-top: 90px;
+    height: auto;
+    font-family:  sans-serif;
+    width: 450px;
+    background-color: #FBCEB1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    display: flex;
+}
+
+.firstmoveh2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.firstmovep {
+    font-size: 1.1rem;
+    font-weight: 1.3rem;
+    
+    align-items: center;
+    
+}
+
+.firstmovea {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    align-self: center;
+
+    color: black;
+}
+
+.firstmove_read {
+    margin-top: 20px;
+    align-self: center;
+    width: auto;
+    padding: 30px;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    border-radius: 10px;
+}
+
+.firstmove{
+    display: flex;
+}
+
+.body{
+    background: #466368;
+    background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+}
+
+  .meetimg{
+    scale: 0.95;
+    border-radius: 10px;
+    height: 550px;
+    width: 800px;
+  }
+  .meet_container{
+    margin-top: 50px;
+    height: 450px;
+    width: 450px;
+    background-color: #FBCEB1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    display: flex;
+
+  }
+  
+    
+.meet {
+    gap: 40px;
+    padding: 40px;
+    margin: 80px;
+    display: flex;
+    align-items: 
+
+}
+    
+  

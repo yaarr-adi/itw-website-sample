@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzz Page</title>
+    <link rel="stylesheet" href="stylec.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Buzz Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#dating">Dating Tips</a></li>
+            <li><a href="#relationships">Relationship Advice</a></li>
+            <li><a href="#self-improvement">Self-Improvement</a></li>
+            
+        </ul>
+    </nav>
+    
+    <section class="slider">
+        <h2>Tips from Co-Founder</h2>
+        <div class="slide">
+            <img src="sh.jpg" alt="Slide 1">
+            <p>Tip 1: Adventure Dates: Choose unique activities that create shared memories.
+                </p>
+        </div>
+        <div class="slide">
+            <img src="sa.jpg" alt="Slide 2">
+            <p>Tip 2: Honesty Rules: Be genuine and transparent about who you are.</p>
+        </div>
+        <div class="slide">
+            <img src="ad.jpg" alt="Slide 3">
+            <p>Tip 3:  Active Listening: Pay attention and show genuine interest in your date.</p>
+        </div>
+        <div class="slide">
+            <img src="va.jpg" alt="Slide 4">
+            <p>Tip 4:   Respect Boundaries: Always prioritize and respect each other's boundaries. </p>
+            </div>
+
+<script>
+
+                document.addEventListener('DOMContentLoaded', function () {
+                    let slideIndex = 0;
+                    showSlides();
+
+                    function showSlides() {
+                        let slides = document.getElementsByClassName("slide");
+                        for (let i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1;
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        setTimeout(showSlides, 5000); 
+                    }
+                });</script>
+
+        </div>
+    </section>
+
+
+    <section class="articles" id="dating">
+        <h2>Dating Tips</h2>
+        <article>
+            <h3>5 Tips for a Successful First Date</h3>
+            <p>Here are some expert tips to make your first date a memorable and successful experience.</p>
+            <p>1>Be Yourself: Authenticity is key in building a genuine connection with someone. 
+               <br> 2>Listen Actively: Communication is vital in any relationship. 
+              <br> 3> Take it Slow: Rushing into things too quickly can often lead to misunderstandings or burnout. 
+              <br> 4> Respect Boundaries: It's essential to respect both your own boundaries and those of your date. 
+               <br> 5>Have Fun: Dating should be an enjoyable experience! Don't take it too seriously or put too much pressure on yourself.
+        <article>
+            <h3>How to Write a Great Bumble Profile</h3>
+            <p>Learn the dos and don'ts of creating an attractive Bumble profile that stands out from the crowd.</p>
+            <p>
+                   1> Introduction: "Adventure seeker with a passion for good food and great conversations."
+<br>2>Interests and Hobbies: "Love hiking, exploring new restaurants, and playing music."
+<br>3>Values and Goals: "Seeking someone who values honesty and open communication."
+<br>4>Humor: "Can't resist a good pun or witty banter."
+<br>5>Call to Action: "Swipe right if you're up for spontaneous adventures and meaningful conversations!"
+                </p>
+        </article>
+        
+    </section>
+
+</div><div><section class="articles" id="relationships">
+        <h2>Relationship Advice</h2>
+        <article>
+            <h3>Communication in Relationships</h3>
+            <p>Effective communication is key to a healthy and long-lasting relationship. Learn how to improve
+                communication with your partner.</p>
+           
+        </article>
+        <article>
+            <h3>Managing Conflicts in Relationships</h3>
+            <p>Discover strategies for resolving conflicts and disagreements in your relationship in a constructive
+                manner.</p>
+        </article>
+        
+    </section>
+
+    <section class="articles" id="self-improvement">
+        <h2>Self-Improvement</h2>
+        <article>
+            <h3>Boost Your Confidence</h3>
+            <p>Explore practical tips and exercises to boost your self-confidence and improve your overall well-being.
+            </p>
+        </article>
+        <article>
+            <h3>Setting and Achieving Goals</h3>
+            <p>Learn the importance of setting goals and strategies for achieving them, both in your personal and
+                professional life.</p>
+        </article>
+       
+    </section>
+
+    <section class="relationship-cards">
+        <h2>Successful Relationship Stories</h2>
+      
+        </div>
+        
+        <div class="card2" style="display: flex;">
+            <div class="card15" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISERUSExMVFRUVGBcVGRYVFRUVFRYVFRcXFxUYFxUYHSggGB0lHRgWITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0lHSItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIARMAtwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAEDBQYCBwj/xAA+EAABAwIDBQUGBQIGAgMAAAABAAIRAyEEEjEFQVFhcQYTIoGRMkKhscHwFFJy0eEHIzNigpKy8RZDg6LC/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDAAQF/8QAJBEAAgICAgIDAAMBAAAAAAAAAAECEQMhEjEiQRMyURRhkQT/2gAMAwEAAhEDEQA/AOcOXsuxxaeIMH4Kwwu28S2wqu8zPzUQoQ2VDTF1yVR0WmbLZPaxoaG1pa4DXVrufJHbP7UUqjnNNgND+Yb151i60EDcuS8bim5yQHBM9F2j2so0wYknks9/5dULgGmJO/S5WUxIO9BOrEJJZJMMYo9vp45uQOndP2VHQ2vSc7IHCeC8do7UqAZRUdHCTCuezmKYKoc8nkZtPNN8zB8aPWQU6q9n7Qa+wMqzBXRGSkiLjQ6SZUW3u1FLDeH238AbDqUZSUVbNGLk6ReuMKEYlh99vqF5RtntoKp8bmgbgXWHlCp340u8dPxcgdf0uG/kdVH5vxFvh/We6pLyTYHaqrTIIcXMPuuMg8QQfZIXqWz8Y2tTFRuh3bwd4KpGfInKDiEpk6ZOIJMU6YrGEmKdMUAiSSSWMeRYXaLS2HJhimysoal7FNVqk6FcrkVo2GILCJkIFtVrXXVNg8XlNzKsn4xhC3IwTjMYwiAq+u0FdOpTcLkRvQewoGayCjKWIyrqhgalX/DYTGp0aOrjYLk0KQdkdiaIf+UmpE8M2SEg6tmj7KbVioQ42i3Vek4asHAEaFeUYLZRZ46r2saDYtc1xfv8MHTmVtsHt+m2m5xMhgJcAQ4tgT7vJPjmovYJQbRV9vu2bsOTRpy06F4EnmBw6rx7H7bfUcXOqPM8rITtPtf8ZiKlaC0Oc4gEneSbzvv9NyD2ds6pVMMbPNVq9yFUq8YhhrB2+Vxg8W6k/wAJtvH0IRP/AIziJ9nz0Vvs3sbVdeoYHx9ULiNxkPQxxrewJc7UDUnj149BxK9L7EdoG0G9xiT3b3Q4B03EASOUqj2JsGnQIIEniVb7f2M3F0YECqzxMdwI3dChFO7Gl1TPRWPBAIMg6EaFOsn/AE4xLnYUtfOZjiL7tRblafNaxdCdqzlap0JMkksASZJJYIikmSWMfMLsQkzEFAseuw9c/EdMsmVlNSxElVrXqRhhK4jGs2fWkZVptgbDbUfneAWtvB0J3SsJs7EHMA0EkkAAaknQLd4vE1KODLWeKo4w4j2Wnhm0MbytdIMI3IqO3PasMP4XDt3wcpyieeXX4LNnDU6bc1TxOA8bi52Rrvyi8uI33AXdLBd2TVqXe72Z48vmT/E020SazgwGKVMS47jz+/ojFIebCMT2gpPHdNY9wFwRlZHMAN06lSYTbGWm6mS4SIPiyiDxjUFAtwpLZa3K0bvLfvLt8D/sOqDGa5c0wZsCDprwT8Yi85A+KpgPbJ6n5fBbrsllawEbyZ+QWRODovEmoA879GjkXHVHbExD6FTuXeX8IT2tBxalv2eqUHDgiCQq/ZVTM0E6I12Lp6BzZ4SJSRb9l5RVjSUZhCWuaTp+6BrYkMaXkWAlZU9taj3EMa0Nbv8AE60gAmGxvCdNCNM9K7LU8leu2Im/nYz6OC0yyPZ3aOapTqu/9ze78N252yZnmMvotcqwdo5Zpp7EmTpkwokydMsYRSTJIGPlBhUgURBTtepDEwJRDSh2vlThBhRquwOG7zEkx/hsc6bQCRlBM9SfJbTF1wykGR4tT1N4HHy6qt7Ld1g8G1z5L647yBMwbMBjQR8SVSbb28XF2UBoGoba53Ei89CoOWzphF0VO28US8yROnJo4ct8oTCMBhkXcQ48SfdB5AXPVQ4qmYL6lv8ALxOob8ieVt6l2M0uqibk7+bjcp7pG42zT1cOWNbSowHke1AdlbvIBtJM35I/ZnZJrQXP8Tnak6lF7Lwv91zuED0WjpsQj5DOoo8n7U9mjQPe09BcjdCqsQ9pZTqs3GP0zuPmLL1jtHRpmmc7mi28gfNeRFvdAibNe8GNHDRo85+CZX0wSS7RoW161SkBTsDaJjqSeC5o7CqDKc/jkyWSRG4SRrrvKsuy0ZAtLj3sp05DZdoAN5/ZIn2X4q0yLZVLvaLqFS5Ijrw+Sgwmw+5cCwtHPIM0cJK6wOLp57VGl1rA3HEELntDtmj3gbTe7vmgFwElsH3SOOh5eadVxFl9jZ7FpeyNQHtd5jX75LTrAdmdriznERI9fuy3yvjaa0cWZNSEkkmTkhJJJljCSTJIBo+VxTKQw6uaOAziVHVwhChYyRVmjCstj4TvqjKcxmcAem/4IauYVl2YoPdVzMiaYzCTAmbFx0DRqeQK0noZLySN52jawUmtYJfaw5AZRya0DRYisQzfOWXE7p5DhuRe1duU6bO5peLcXZpc7i5z9Gg8AqOjmqPa0z4jBAFoANgoxhqzqcvR3imOquA3NAn9ToP1Por3ZeAFMl77AAknkBLj6W6lF7L2YGw5wEkl0czx5NB15q1rUWOiiffueg0nrPwWYY7MtgtsValR9SmatMAy4khzRmMCWkW04r0DZ+MqOpSbkC5HHjCHwHZelTEyY1ibKywjGyQ3QiPMaJ+LsFqv084xr8QatR8kOHsl7RUzGR4QDZm/QbtU21NimpQxD3Wq08tXKLNIDW57dMx8ivTKdGk6+VuYa2ErHbWxho44Whr2ASR4SQTI52IkcwhK47CvK0UXZnFeARu+yFN2g2q9zmtYXEa+CCTGoCp9v4EYepnpHwO3TOX9wq/DbQLXN4A5hyK0YW+SBLLS4s0uztg0a3911VrHHc5zi+b6gAQdPXkr9uwabqfdYZz2mQX1fYBZfOAT4iTbXmqbC7WL2y0CYgE6kxvReAxtcFxqVABHsjebxdFf2UbjVoL7I4B/4hmHEuAqEkm4DQQ4knpZeyyvO/6Zm+IrOFy4MBPIS6OXs+i3X4sK0KSOHLbYSkhvxQT/AIkJ7RPiydJQfiAmOJC1oNE6ZQfigmWtGpngOA70CMpUtfD1j/6z1gkL17C9naTfdRJ2Iw7lz1Ir4nhdfZtU+4fQq+wOw30cHUe4EGqWtNogAknXUAA/7jqvXKOyGN91UPbLFU2Uu7Op3bza8cgDc8wEuRS47Hx1yPGKWz3VKzmAG0S7eAOBPmthszZvd3a0A6Zvad5uNvRDYWoWN8DSDUfc2kiwkSLAD6rObW7XVs5ZTgAEifEXGLHxT9whHlLSKTajtm6qOYw+N8uick8N7jwHkEBszEl1Y1JkHQ/wsZs2pWqul7iQTMWAnmBqeZWpwb+6N9Clya0Vw7Vmzbiy/wAN4XDKdZjhD2ZRugh3MzN/RV2VldsEAncd4PI7kEdlQbsLv/kqAeYlFOx1FM0GKrxBa4OdvII85jRYDbG0u9rVWOf4QczGgC9QAMMG50vA1gcCRoa7sje6YA1zrki+Vum/U9eaHw/Y1lSH3F5Bnf0C3bEl4ordm4Q1/bEhpIujMV2GpvEtJYeVxPRafY2xjR8LgI3EfUK8pYUBdmLFHicOXLLlR5O7sljaJlje9b/lJnlbU+ik2bsyvWrBj3ineCLlwAuRl3HqvU6xawSV572j/qH3dZ1P8GypkJYKjqha49MrZA81p4vaYIZvTR612bwNKnhabWCGgXnUn3iShsF2kwtfEfh8PNd7bvcwf2qbRYk1DZ17ANmSepHjO1tv7RrYOkajnsw1TvGtawMY14YfE12XxGNAHG4G+5Xr39POy7cDhgSP71YNdUn3bEtYP05j1JPJavQrfs0ncDgm/Djgp0k1IWwc4ccExw4RCSFINsFOGCSJSWpGtnDacLsNTgpLUAqO0WNfSY0Uy0Oe4tBdoIaXeVgT5c15vtrHNBc4uNao45czrtcf8tNonKL6xMrddvaQdhhrZ021gAl0eQI81muy+zHVmCo/MylbK0Ey5sbt4Gl991yZIylk4o7MUoxx8mZbEU30qJc6XVnzlaYBBdN3AeyALR1We2Z2WPtPOZx14L3Ghh6NIZKYY3jN3abybk9VFicCwiXU2u55Wg8ri4VlhaXZL503tHmWA2WGHTkrHG4UFsLQbX2MaY7ynL27xEkDiOIWer4gFpvzXPLG4vZ0wyKXQBRrOpXG5T0+2GcENouJEiZblJBg3mdeS72LQbXrZXf4bGVKj90hjTDZ5uLR0lY/YOyav4kUMzspYKjiCQMpbY20JJH2E8I312ac6e+jZYOTme/23XPAcAOgWk7P4oOpxwMIXA9mKeX3jyzvH1UlDBsw7w1jcofMjiRF532+Sq8DguRD54zfFGgYJU72keiGoFWAbPUfJWxP0c+Zeyn2lSztMei8xxmwvxG0e7DLNpirVMkSAcoA4EwB8d1/YKmGBULNk0mOfVa0B72taXby1pJaPVxV2kyKbQTgMJTFPK1je6cGkMLRlEACMp5BvmCrnD4jNbf92VRgakOLOQeOhs4eon/UiXyDmH3/ACkaGTLVJc03yAeK6UxhkkklgjJJJLGKTB7ZzKwGKnReb4TbFNrvaA81q8BtBrmTB/c8lDmW4Ee3q/e/2wSSc1MmMobJbMcdP5KJYW02sY0Q1oDQOTYAHoFVGu5+Jh3hy5iGDSIEOceJkgC2h1RWIq+KfuybDTuQMy6icjEA9STJ1gmZFtLozDvAIA0MyN0XvHp6qnrMbmdYifEYmDN5mIRmHflAgEzwuYEXvfeqKWxGtFrSpWNxE2GkdCs72h7MMqhzqXgqQbR4HHy0PMK2Zi8tx4p4gwDwjyKlZVc87gY0GpHJF09Ajyi7Rg+yjKjKtSi6mcr6TmPdua6REu0489Fcdm+yzcM27u8eQxrnkRIptDWgAaC0xOpK0GMoGzgPEBe0kjy80OMUS7I3UangmxYlHYMuaUtBzKI3kffJVu3qIDWuB9lw+NlY0WQPqgdrCWO6T6XVJq4tE8bqSZzhHWVtQfEHyVJgD4QragbQuSLOqSC6wiDu0KVVtlzWdbqPlddNMtC60crBq0Ny1Py6/pPtfC/kjZ+/qoXslsHQyPVcYRxyAHVvhPlp8EGZFrgx4T1+anQeDfeOKMU32OhkkkkAjJJJLGPmepTf+Y+a9G7NsqGlRYzMQ5t3gWbbM8nh4paOm/dgqOFqTcSPvRbbYu3KmXumUqdJp1LQ4Hnpx1sAuSas64Oi9oUmMruy6QJkyZGpJ8/gia5Ejju6FC4WjlefEHBzToIAEtCnG/fAt0vGirg+hLN9wXGiS0kwJyuj1ajWkOIyES2x32sCOVh8FBWZrrwO+RuJHl8UHRe1tQAEh2osS10aidJ5J3piraLPCMcXua4aEmdIvE8L2R9MEOys4a7gqgC4L3PfNr6CdJ+9yOpVDxaGxGUe1MaW5oxYJItGnd7RNibblFUwbZLhY8Rv6qOm4BokZRPEm/Mqcv46b7Xjcqp0SasiLSP3QOPByOO6D8lbC8gGRr/Eqq209zWgBoyk3fmGnAgwZ6Toi50mCMLkgTBaK1w7lWUCjaDlyxOuQZWdAHQoimPCByQtUTl9PiCfkp21F1x+qOSXZJuQ7TDiOPzFx8J9ES0qCs3xN9ERSei+4KtFTUirhhsOgSSHiOmTpkgwkkySxjAt2XTjQIUYLIfCAjm1CB+yKowdyjRawHAtOcz+U/MIprDJMi8AdRNuRRDqQuUNluG/5b9bmfVUj0JJ7E14yn9oiRw8kCaEOdbcb6gEH5wjcS6ANMx1GojpuvCT6YyyLzebanWPki0BOgDBY+XlrptAzzAPIj6/ZsWOINh8JzTu+eqqX0wB1+cn6IrZNXK1gcCZd3Y3EGAWAz5j0Sqx5FnTqXLS7iIjUm45KWhiXTlIgm03n4oStjRTzPeycpgwBmad3Jw5p37WIL8rc0MFQA2mno4zuIMyE10JVlnRxgJLM8OG4iJ5g71xj303US2Q8cjaQRvGnRZXGYtziazd2Vw/SSWweYcD6qzo1GluIHsm1QcwRmaP+ST5b0U+GqZBhS5tna8tFZUHqlo4qVY4aqpQZWaZZ1qkNHVPTroPGOJpmNQQfp9VHQnfZdmN6OTItl1TqLqroOqApPRGeYCcmTgXKtqJ8Leg+Sqg8EBw0IBHQ3CtaHsjoEkhonaZJMkGEkkkgY8mwu1nT4h8Fc0NuMIjf0QD8Ec0xI6Iqng6bRJC51Z0OgjDbQLnhp0M/KyKB9f31++agwjqUgyJC7qGDHn9QPXfyVoEpDsEubAmDO7S071NVdc745byN/l8lFhNS46Re27Xy0UhM33kT6mwPS48k/oVglc2kDw6OH1T4GgIc0tBBLXNM72QbfArutLRpc+gA+/mlh65FWm0b25jyDtBfid/IIpAbC2087CN5Ba4QIJF2lA4LDSWk/5mHo4WHqSrOn4HAHfY+Z/dcikGuLdwId5/ZCbiLyK6jgczHMH5XA+ZzM9CD6qbZocWtLmggs7s2v4CY+BKPZSAfHElNhaMEidD/CHBDc2Y2uypScQWkCTBPCbXTU9pQtftN4YDxdYfVV2GpA3yjrAUf434y6/6dbRDsyrUcDYwd5t6I5tIjU/upQFI1gXRjx8VRz5MnJ2PTB8kThxJJ5KCEbhmx6KhI5wrcrMv5SR5aj5q7o+yOgVLRdOf9ZHo1oVxhT4G9FKY8SRJOmSDiSSKZAx5ls6pVcS2RYxcFTbQc9sAzBRuDpZJ3FQV2OqGDpzUaZe0VFbCyPCb9VpmDMGlwE5Wm/GL/GUGMEARCtjRDmti1v8AtNjWxMjB3VN3u7z0jw9L/FPRZxH8kaH5qX8G7lEcfpCkp4UgRO6FeiVlVtF/hn4x5oplIBxgQfCCeOX3RyFvsKPF4N5cDAgEbxuubKdrIPqf9x/hFLYG9BLtM2tviVI5uYZuUH6fJcR4Y+7/AMwu6BsJ0uD0TijVBefNSCM2molc4inBUlMyAeCDMVW1KU1hJtlEBJnAIvaIZmBJg/sh6ZYPeTLoDJWsXYamFdq7ZUBNkQbHFroig/ehHORNEeEoMKGwmjubyfkPornBHwD73qlwbpZMb3f8irjBewPP5pJjR7JyU0pi5Rd4pFKJiUlwCksYyVVsmy6pUQFAHAmxUhqEblMckNGSrCnh8rQL+vFC4AZnTuF/2RzzKpBeyc36OWjmfgkXJwuQqkyHEOsoovccPkpaomy41d5pkgHdP5/NOyb7t6hqYgAyAiAb9RPqiYlqXb0+SjpvDWkk2F/LepdygrMEFp0cIHoSPkgYH2izMGk/dh+xUYponEjwtjj+8rgCUUazju7J6IU4CcCEQWcd2pj7JHkoy5dAWQCPsw+BzN7SfQ3H19EbSxWWAdFXUHZaw4OaR5i4+qlxuo81PL0Pj7LllQOTOpKip4gt0KscNtAGxUFIq4k7mkJKYOBSTAMXQytEl1/Jcv2m0EAkLJuqS2Q+43FdYSsyrDXOhxIA6mwhQ5leJ6HgXDu8w975fcqQFQBgY1tMaNAb6CF3mXZFUjlk7ZNNkguJTuNkyFIqh1JQ+Hq+EHeWj4hS1j4UJhauZjXcWg+oTIxLlspGGGg7wfguGiVJT3t3R8UWBMMo1wbHVVB2syrV7umCTTdIO50SKjQOQuOMFWAAnmsuyiaNTMNMxLXN0105FagmqzAyDuP8LgQo2PD4qN0dMj4EffJQua4LIAXK6DSUHTrEEKxZXHBZmGbSXeRd5guXPDQSSABckmAB1QCD1GQ5ruDh8fCfmhO1Di2m143Oj/cD+wXeL2rTLSGODibCDN9yF7Y7Qy4cECQ54B5WcfmFPLuLHx6kgPB7QcdQrGnXBWJw224gExO5WdHaQa4eIXXCpHY4mtpYwtSQtOoHCQkqWTo8x2lQdTbLWOIO/wDdH9jKfeYlmZh8E1JI/Lpf9RatFUwZcIzgciFZbKwLaLSRq7fyC0IeRpz8Q8vkroOQ7SuwbrtOQJzJ6jrBQZrp6rrjosYes+AgcE3KwNNot8bImsbKuwOJ9qdzo+A/dFGLIOISpkghcynaUwlhfvfFZrBYR9Jzodma5xJYbgySTHBaFp0PCy8c2V/UapRqOp12d4xrnAObZ4AJFwbO+CW0uxqb6PW8LhmuaQCReeYdwU9OmWjWeRWSwfbrZ7rjEBpMWe17Y9RCucH2owlSzcTQcTu71k+ko2gUy4dhw7RRd09uhsqet2vwLNcVQt+Wo13yJVXjP6l4JkgVC/8ATTefiQB8UOSMkzZCvAvqsp217TYajkoVSXvquaO7bcsBNnuHWIGp8ljdvf1JqPluGaWTbvakF4n8jBIb1M9FhqG0CzE067/7hbUbUdnJcXEGTJOp/hI5fhRKj2LZlOmTYOtv0V5tIsfhXtdo3K7/AGuH0lAbNcH3tvIy2EHkrfaGGDsNVHGm/wD4lGUVxZubckY7F4Kg5gvfqmw2xWWfmJI4oKrWa1oymSPn1CMwW1RYPIHILzztL3BlwsCkgvxVaZpgEcykiACpYqo54EkhasS2m0HWB6m5VFs9hLsjm5T8OoKuq75cPM/fqujCvZz5X6CGldsddDBykpuXQQJQU9Y+IdFEwrqsfEOiwRVnWVPhNanMg/T6K0qlVbT4uoPwKKMWlF0gLsmyFwT5ARCcRkue0r587W0O7x+JaNO9eR/qOb6r6Bpmy8R/qXs91LHPqG7a3jaeYhrm+UA/6gpzWhoszCcCVyCuqR1USh2F0WSuE4KxiQQoMWpi1QYnRYx7L2OqkUaIdr3VP4sC3NBmZhadHNI9QQsNtnEU8HXYGixY0hgOguB5WR2B7YOkNbRHm+fhAT/LHjth+CbdpFTtTYNNrDUDi08BuVDWGSHQ528m8QvRqdVgEFovvPNYHtYQ2ocr4H5YMT5LkaOlM7bXqOHhLmDmSko9l7YYGjvWgxoN3/aZCg2avZW0HVKsO3AnpuurXPfyVfg5lxdlO4OAgmf+lP3l11Yl4nLlfkGB6kY7VBNepmOsVUkFU3XXWId4m9EPRddSYp12+f0WMKq5Vrbu9fkjKjlWtqQ88DZYIVhqsA8iiaGLzDxKupuuR5pmCw5z804KL+lTloI0WA/q7gR+FZU95lX/AOrxBHqG+i1GEpu3OIHIrPf1Ra44AkXAqMJJ1ygkT6kIPpgXZ4/K6om64T0tVAoSlOmckgElbwUGJFlLlT93mIbxLR6kBYx6J2/pvbiaL3e9TAHCWEz82+qrcPi8pE74I6xdbrtzsZ2IoeFvipy9hm4IFx5j6cF5dUl1NpF77v02XO0d+N6PVtjYttZmUxmAkcxv81Ji8O10tcwARwklYPspth1JzXXcNC3itHV7VBxjLlnjb1JW5V2JOG7Rntu7Op0j4Scp3kG37pLYCnQxDQHODQN+klJZMQF2Af7b/wBf/wCQjWHxO6/QJJLrx/VHNP7MklEMNkkk5Mkom6lxZ9nzSSWMDvKr6vvJJIMKHpG7eg+iJfo3okkqIDJ6WiC7TMBwOIBE/wBiqfMMJHxATJJmIeDLqnqmSXKWJSkEkkAklMqbC/4jP1s/5hOksY9qo1CaNUkkkDjxa6fkvJKLz+GceEEcjy4JJLnO2HX+lp2NdNRpOsk+eUraVaDXs8TQeoSSW9sWfoztU5HgNtr9eKSSSRBP/9k=" alt="Couple 1">
+                <h3>Raj & Sneha</h3>
+                <p>May your connection be as strong as your Wi-Fi signal, and your chemistry be as electric as your first text."
+                    </p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+            <div class="card16" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNyiR_kj0cevK53absPOk4LeRCC93WVWDi0Q&s" alt="Couple 1">
+                <h3>Naveen & Vineeta </h3>
+                <p>"Wishing you both endless chats, effortless laughter, and a love story that unfolds beautifully, one message at a time."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+            <div class="card17" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH7YiLLEGKTeynN7Y1ub2K080OqShhFDUjIQ&s" alt="Couple 1">
+                <h3>Roshan & Sukhvindar</h3>
+                <p>"Here's to swiping right, finding your match, and discovering that love can indeed be found in the digital age."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="card3" style="display: flex;">
+            <div class="card18" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5SW-dRZ1DBczPxyEgtvRlLNmhegW9XSHOQ&s" alt="Couple 1">
+                <h3>Ravi & Sandhya</h3>
+                <p>"May your hearts sync like your profiles did, and your conversations flow as smoothly as your app interface."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+            <div class="card19" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvfxNDb-P0_JJNzbnwLOoNBXux2cmq9UFUTQ&s" alt="Couple 1">
+                <h3>Shivam & Rohni</h3>
+                <p>"Cheers to finding someone who makes you smile with every notification and whose messages light up your screen like fireworks."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+            <div class="card20" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRxYnvzJWoYB1g9faQ-4ELFrQKtmwrefuZbw&s" alt="Couple 1">
+                <h3>Vijay & Kiran</h3>
+                <p> "Wishing you the perfect blend of compatibility, attraction, and mutual admiration in this digital journey of love."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+        </div>
+        <br>
+        <br>
+
+           
+           
+        </div>
+        <br>
+        <br>
+        <div class="card5" style="display: flex;">
+            <div class="card24" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtwLgc4LaUOgGAkYu0f4Ll_6uvpvbY_FaLg&s" alt="Couple 1">
+                <h3>Nitin & Ruby</h3>
+                <p>"May your online connection blossom into a real-life romance filled with unforgettable moments and shared adventures."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+            <div class="card25" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5_b_q3OztYIIZKiXIQWzvrKOZEvLI8Iox1Q&s" alt="Couple 1">
+                <h3>Rahul & Neha</h3>
+                <p>"Here's to finding your missing puzzle piece in the vast digital sea of profiles. May your match complete you in every way."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+            <div class="card26" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEeqOzYylBgtpW3GOdmbpveqtiF0JxunPpqQ&s" alt="Couple 1">
+                <h3>Shrey & Sanskriti</h3>
+                <p>"Wishing you the courage to be vulnerable, the patience to wait for the right connection, and the joy of discovering true compatibility."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <*<div class="card6" style="display: flex;">
+            <div class="card27" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqOYmyQb9H55qrSnptNTWwqaMIfw_WPbVW4w&s" alt="Couple 1">
+                <h3>Abhiyuday & Niharika</h3>
+                <p>"May your love story be a testament to the magic of technology, proving that soulmates can be found with just a swipe and a click."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+            <div class="card28" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz9gdRb75u3kp3GzfxF_OqAirhKWIHKBshiw&s" alt="Couple 1">
+                <h3>Ritik & Anjali</h3>
+                <p>"Cheers to finding someone who not only matches your preferences but also captures your heart in ways you never imagined."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+            <div class="card29" style="border-width:2px;border-radius: 20px; border-style:solid; border-color:black; width: 30%;text-align: center;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP8wj7m4PlE04WiiRmt6YCwWManagkP-gBTQ&s" alt="Couple 1">
+                <h3>Piyush & Nancy</h3>
+                <p>"Here's to celebrating your perfect match found in the digital realm. May your love story inspire others to believe in the power of online connections."</p>
+                <button>Read More</button>
+                <button>Connect</button>
+            </div>
+        </div>
+        <br>*>
+        
+
+
+    </section>
+
+    <?php include 'footer.php'; ?>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy;
+            <?php echo date("Y"); ?> Buzz Page. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
